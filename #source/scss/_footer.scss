@@ -1,0 +1,64 @@
+.footer {
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0 100px;
+    font-family: "Noto Sans Gurmukhi", sans-serif;
+}
+
+.footer__wrapper {
+    padding: 10px 10px 0;
+}
+
+.footer__logo {
+    margin-bottom: 15px;
+    text-align: center;
+
+    img {
+        max-width: 328px;
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+.footer__descr {
+    text-align: center;
+
+    p {
+        font-size: 16px;
+        color: #fff;
+    }
+}
+
+.footer__widget {
+    text-align: center;
+    padding: 50px 0px 68px 0px;
+    border-bottom: 1px solid #FFFFFF52;
+    text-align: center;
+
+    img {
+        max-width: 280px;
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+.footer__copy {
+    color: #fff;
+    padding-top: 45px;
+}
+
+
+// ADAPTIVE //
+
+@media (max-width: 1024px) {
+    .footer__copy {
+        text-align: center;
+        p{
+            font-size: 16px;
+        }
+    }
+
+    .footer {
+        padding: 60px 0 40px;
+    }
+}

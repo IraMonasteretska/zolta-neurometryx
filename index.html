@@ -30,12 +30,16 @@
                         <a href="#faq">FAQs</a>
                     </li>
                     <li>
-                        <a href="#meetTheTeam">Meet The Team</a>
+                        <a href="#team">Meet The Team</a>
                     </li>
                 </ul>
+                <div class="close"></div>
             </div>
             <div class="header__button">
                 <a href="#contact"><span>Contact Us</span></a>
+            </div>
+            <div class="burger">
+                <span></span>
             </div>
         </header>
 
@@ -63,7 +67,7 @@
                 </div>
             </section>
 
-            <section class="about">
+            <section class="about" id="why">
                 <div class="container">
                     <div class="about__top">
                         <p class="sect-subtitle">
@@ -76,16 +80,17 @@
                     </div>
                     <div class="about__wrapper">
                         <div class="about__content">
-                            <p>
-                                The Neurometryx System provides a true integration of mind and body measurement guided
-                                via scientifically-proven and cutting-edge analytic methods. Neurometryx delivers a
-                                personalized, actionable solution by understanding how your body responds to mental
-                                challenge.
-                            </p>
+                            <div class="descr">
+                                <p>
+                                    The Neurometryx System provides a true integration of mind and body measurement guided
+                                    via scientifically-proven and cutting-edge analytic methods. Neurometryx delivers a
+                                    personalized, actionable solution by understanding how your body responds to mental
+                                    challenge.
+                                </p>
+                            </div>
                         </div>
-                        <div class="about__video">
+                        <div class="about__video" data-video="https://www.youtube.com/watch?v=HCa8KaJr2OQ">
                             <div class="video" style="background-image: url(img/why-neurometryx.jpg);">
-
                                 <span class="play"></span>
                             </div>
                         </div>
@@ -138,7 +143,7 @@
                             <img src="img/no-24-7-wearable.png" alt="Features image">
                         </div>
                     </div>
-                    <div class="features__block">
+                    <div class="features__block" style="background-color: #F6FAF2;">
                         <div class="features__content">
                             <h3>
                                 Personalized <br>
@@ -152,13 +157,14 @@
                                 <span>Displays stress levels over time relative to performance.</span>
                             </p>
                             <p>
-                               <b>Perception vs Performance</b><br>
+                                <b>Perception vs Performance</b><br>
                                 <span>Highlights the discrepancy between subjective view of challenge/success and actual
                                     performance.</span>
                             </p>
                             <p>
                                 <b>Recommendations</b><br>
-                                <span>Includes a list of actions like “Weekly breath training 4x,” “Acupuncture,” etc.</span>
+                                <span>Includes a list of actions like “Weekly breath training 4x,” “Acupuncture,”
+                                    etc.</span>
                             </p>
                         </div>
                         <div class="features__image">
@@ -167,11 +173,236 @@
                     </div>
                 </div>
             </section>
+
+            <section class="info" style="background-image: url(img/Neurtometryx-system-pro-real-time-background.jpg);">
+                <div class="container">
+                    <div class="info__wrapper">
+                        <div class="info__content">
+                            <div class="descr">
+                                <h2>
+                                    +Real-Time Monitor
+                                </h2>
+                                <p>
+                                    With +Real-Time Monitor, clients wear an ECG monitor during a session to gather
+                                    immediate feedback, determining level of ease or relaxation as a result of the
+                                    treatment. This data can be used to adjust treatments, build session bundles for optimal
+                                    relaxation based on data trends, or as marketing and proof point storytelling.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="info__image">
+                            <img src="img/neurometryx-pro-real-time-monitor-1024x574.jpg" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="faq" id="faq">
+                <div class="container">
+                    <div class="faq__wrapper">
+                        <div class="faq__content">
+                            <p class="sect-subtitle">
+                                Learn More
+                            </p>
+                            <h2 class="sect-title">
+                                Frequently Asked Questions
+                            </h2>
+                        </div>
+                        <div class="faq__accordeon">
+                            <div class="faq__row">
+                                <div class="faq__head">
+                                    Who is the best candidate for Neurometryx?
+                                </div>
+                                <div class="faq__body">
+                                    <div class="descr">
+                                        <p>
+                                            Anyone interested in understanding more about themselves, how they perform under stress, and how they change over time or in response to specific strategies to improve their performance or reduce stress.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__row">
+                                <div class="faq__head">
+                                    What do Neurometryx reports tell me?
+                                </div>
+                                <div class="faq__body">
+                                    <div class="descr">
+                                        <p>
+                                            How well you perform on challenging games designed to assess memory, attention, and multitasking. We measure both how accurate you are AND how much physiological effort you use to perform at that level. Individuals vary in their response to challenge and stress. You can learn whether you’re cool, calm, and collected under pressure, if you get really activated and stressed but can still pull off great performance, or if challenge makes you fall apart. The report will also tell you how you thought you did on the games versus how you actually did in terms of accuracy and stress responses. Finally, you will receive recommended activities for improvement based on your individual responses to the games.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__row">
+                                <div class="faq__head">
+                                    How often can I take the assessment?
+                                </div>
+                                <div class="faq__body">
+                                    <div class="descr">
+                                        <p>
+                                            As often as you’d like. However, we recommend as often as once a month to allow time for adjustments to take effect.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__row">
+                                <div class="faq__head">
+                                    Where can I get take the assessment?
+                                </div>
+                                <div class="faq__body">
+                                    <div class="descr">
+                                        <p>
+                                            Contact us at <a href="mailto:info@dprime.ai">info@dprime.ai</a> for further details
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__row">
+                                <div class="faq__head">
+                                    How can my business partner with Neurometryx?
+                                </div>
+                                <div class="faq__body">
+                                    <div class="descr">
+                                        <ol>
+                                            <li>
+                                                Reciprocal Referral - We can suggest your health service to Neurometryx customers as a part of their stress management plan. Your business can refer customers to Neurometryx to gauge change over time as a result of your service. Product discount coupons. 
+                                            </li>
+                                            <li>
+                                                On-Site Assessments – We can occupy a space in your venue and offer Neurometryx assessments in-house at your business.
+                                            </li>
+                                        </ol>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="team" id="team">
+                <div class="container">
+                    <div class="team__top">
+                        <p class="sect-subtitle">
+                            Team
+                        </p>
+                        <h2 class="sect-title">
+                            Meet The Team
+                        </h2>
+                    </div>
+                    <div class="team__wrapper">
+                        <div class="team__member">
+                            <div class="image">
+                                <img src="img/justin-brooks.jpg" alt="Justin Brooks">
+                            </div>
+                            <div class="team__wrap">
+                                <p class="name">
+                                    Justin Brooks
+                                </p>
+                                <p class="position">
+                                    M.D., Ph.D.
+                                </p>
+                                <div class="description">
+                                    <p>
+                                        <a href="https://www.linkedin.com/in/justin-brooks-m-d-ph-d-a7a32633/"
+                                            target="_blank">Dr. Justin Brooks</a> is a physician-engineer and scientist. In
+                                        the private sector, he works with D-Prime LLC to develop biomedical engineering
+                                        solutions for psycho-physiologic analysis, Tanzen Medical to develop an
+                                        FDA-designated breakthrough device for sleep medicine, and Clinilabs Corporation for
+                                        AI/Device integration.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__member">
+                            <div class="image">
+                                <img src="img/sarah-conklin.jpg" alt="Sarah Conklin">
+                            </div>
+                            <div class="team__wrap">
+                                <p class="name">
+                                    Sarah Conklin
+                                </p>
+                                <p class="position">
+                                    Ph.D.
+                                </p>
+                                <div class="description">
+                                    <p>
+                                        <a href="https://www.linkedin.com/in/sm-conklin/"
+                                            target="_blank">Dr. Sarah Conkli</a> is an accomplished academic, and scientist. As a full professor of psychology and neuroscience at Allegheny College, Dr. Conklin taught and mentored hundreds of students, published numerous peer-reviewed publications, and was recognized as an award-winning teacher, scientist, and mentor.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__member">
+                            <div class="image">
+                                <img src="img/Golshan-Kargosha.jpg" alt="Golshan Kargosha">
+                            </div>
+                            <div class="team__wrap">
+                                <p class="name">
+                                    Golshan Kargosha
+                                </p>
+                                <p class="position">
+                                    MS
+                                </p>
+                                <div class="description">
+                                    <p>
+                                        <a href="https://www.linkedin.com/in/golshan-kargosha-37322811b/"
+                                            target="_blank">Golshan Kargosha</a> MS, graduated from Johns Hopkins University with a master’s degree in Bio-informatics. She joined D-Prime LLC in 2023 as the lab manager, where she manages data collection and conducts data analysis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact" id="contact" style="background-image: url(img/neurometryx-contact.jpg);">
+                <div class="container">
+                    <div class="contact__wrapper">
+                        <div class="contact__content">
+                            <p class="sect-subtitle">
+                                Have any Questions?
+                            </p>
+                            <h2 class="sect-title">
+                                Contact Us
+                            </h2>
+                        </div>
+                        <div class="contact__form">
+                            <p class="form-title">Get in touch with us</p>
+                            <form>
+                                <input type="text" placeholder="Enter Your Name..." required>
+                                <input type="email" placeholder="Enter Your Email..." required>
+                                <textarea name="message" id="message" placeholder="Enter Your Message..."></textarea>
+                                <button type="submit">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
-        <footer class="footer">
-
-        </footer>
+        <footer class="footer" style="background-image: url(img/neurometryx-footer.jpg);">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__logo">
+                        <img src="img/neurometryx-logo.png" alt="Neurometryx">
+                    </div>
+                    <div class="footer__descr">
+                        <p>
+                            Mind-Body Metrics for Everyone
+                        </p>
+                    </div>
+                    <div class="footer__widget">
+                        <img src="img/footer-logo_white.png" alt="dprime.ai">
+                    </div>
+                    <div class="footer__copy">
+                        <p>
+                            2024 by D-Prime, LLC
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer> 
     </div>
 
 
