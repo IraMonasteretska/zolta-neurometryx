@@ -90,3 +90,18 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
+
+
+
+document.querySelectorAll('.header__menu a').forEach(link => {
+    link.addEventListener('click', function (event) {
+        event.preventDefault();
+        let id = this.getAttribute('href');
+        let target = document.querySelector(id);
+        if (target) {
+            let top = target.offsetTop;
+            window.scrollTo({ top: top, behavior: 'smooth' });
+        }
+    });
+});
+

@@ -238,3 +238,37 @@
         width: 100%;
     }
 }
+
+@media(max-width:575.8px) {
+    .header {
+        height: 68px;
+    }
+
+    .header__logo img {
+        max-width: 167px;
+        vertical-align: top;
+    }
+
+    .burger {
+        display: inline-flex;
+        align-items: center;
+        right: 5px;
+        top: -5px;
+    }
+
+    .header__menu {
+        width: 300px;
+
+        ul {
+            padding-top: 5px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    .header__menu ul a:hover:after {
+        display: none;
+    }
+}
