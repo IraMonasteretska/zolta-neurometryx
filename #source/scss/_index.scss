@@ -498,6 +498,25 @@
     }
 }
 
+@media(max-width:991.8px) {
+    .team__member .description p {
+        font-size: 16px;
+    }
+
+    .team__member .description {
+        display: -webkit-box;
+        -webkit-line-clamp: 12;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+
+}
 
 @media (max-width: 767px) {
     .team__member {
@@ -622,6 +641,18 @@
     .heroscreen__button span {
         font-size: 15px;
     }
+
+    .features__content,
+    .features__image {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .team__member {
+        max-width: 100%;
+        flex: 0 0 100%;
+        width: 100%;
+    }
 }
 
 @media (max-width: 575px) {
@@ -713,7 +744,7 @@
     }
 
     .features__block:last-child {
-       
+
 
         .features__image {
             margin-top: 15px;
